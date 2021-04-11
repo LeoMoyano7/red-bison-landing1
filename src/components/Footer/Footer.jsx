@@ -28,7 +28,7 @@ const Footer = () => {
 						<div className="col-md-2 footer-links py-2">
 							<div className="row">
 								<div className="col">
-									<h3 className="text-secondary text-sm-start">Links</h3>
+									<h3 className="text-secondary">Links</h3>
 								</div>
 							</div>
 							<div className="row">
@@ -109,7 +109,7 @@ const Footer = () => {
 					<div className="row">
 						<div className="col d-flex justify-content-between pt-4 pb-5">
 							<span class="text-secondary" href="#">© 2021 Red Bison Technology Group, LLC. All Rights Reserved.</span>
-							<a class="text-secondary text-decoration-none" href="#">Privacy Policy</a>
+							<a class="text-secondary card-link" href="#">Privacy Policy</a>
 						</div>
 					</div>
 				</div>

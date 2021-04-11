@@ -4,3 +4,9 @@
     background: #333;
     margin: auto;
 }
+
+@media (max-width: 576px) {
+    footer {
+     text-align: center;
+    }
+  }

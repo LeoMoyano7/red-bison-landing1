@@ -14,16 +14,16 @@ const Navbar = () => {
                   
                     <ul className="navbar-nav py-2 w-100 d-flex justify-content-end">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">ABOUT US</a>
+                            <a className="nav-link fs-5 mx-2" href="#">ABOUT US</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">SOLUTIONS</a>
+                            <a className="nav-link fs-5 mx-2" href="#">SOLUTIONS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">PORTFOLIO</a>
+                            <a className="nav-link fs-5 mx-2" href="#">PORTFOLIO</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#" >CONTACT US</a>
+                            <a className="nav-link fs-5 mx-2" href="#" >CONTACT US</a>
                         </li>
                     </ul>
                 </div>
