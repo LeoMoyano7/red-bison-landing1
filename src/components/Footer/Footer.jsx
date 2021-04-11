@@ -108,8 +108,8 @@ const Footer = () => {
 					<div class="hr" />
 					<div className="row">
 						<div className="col d-flex justify-content-between pt-4 pb-5">
-							<a class="text-secondary" href="#">© 2021 Red Bison Technology Group, LLC. All Rights Reserved.</a>
-							<a class="text-secondary" href="#">Privacy Policy</a>
+							<span class="text-secondary" href="#">© 2021 Red Bison Technology Group, LLC. All Rights Reserved.</span>
+							<a class="text-secondary text-decoration-none" href="#">Privacy Policy</a>
 						</div>
 					</div>
 				</div>
