@@ -1,3 +1,4 @@
 .header-color {
-    background-image: var(--red-gradient-color)
+    background-image: var(--red-gradient-color);
+    font-size: 0.8rem;
 }

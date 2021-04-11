@@ -10,37 +10,13 @@ const Carousel = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-
-                    <div className="container">
-                        <div className="carousel-caption text-start">
-                            <h1>Example headline.</h1>
-                            <p>Some representative placeholder content for the first slide of the carousel.</p>
-                            <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                        </div>
-                    </div>
+                    <img className="w-100 h-50 m-auto" src="https://wallpaperaccess.com/full/3812738.jpg" alt="" />
                 </div>
                 <div className="carousel-item">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-
-                    <div className="container">
-                        <div className="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide of the carousel.</p>
-                            <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                        </div>
-                    </div>
+                    <img className="w-100 h-50 m-auto" src="https://www.wallpapertip.com/wmimgs/92-923100_multi-monitor-dual-screen-widescreen-wallpaper-dual-screen.jpg" alt="" />
                 </div>
                 <div className="carousel-item active">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-
-                    <div className="container">
-                        <div className="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide of this carousel.</p>
-                            <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                        </div>
-                    </div>
+                    <img className="w-100 h-50 m-auto" src="https://wallpaperaccess.com/full/2115668.jpg" alt="" />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">

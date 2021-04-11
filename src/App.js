@@ -6,11 +6,11 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App container-fluid p-0">
       <Header />
       <Navbar />
       <Carousel />
-      <h1>Hola</h1>
+      <h1 className="text-center">-Aca iría todo el contenido-</h1>
       <Footer />
     </div>
   );
