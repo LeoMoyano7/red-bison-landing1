@@ -2,3 +2,30 @@
     background-image: var(--red-gradient-color);
     font-size: 0.8rem;
 }
+
+.link-header {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-header:hover {
+    color: #ffffff;
+}
+
+.header-position {
+    text-align: center;
+  }
+
+.header-separator{
+    font-weight: bold;
+    color: #ffffff;
+}
+@media (max-width: 769px) {
+    .header-position {
+     justify-content: center;
+    }
+    .header-separator {
+        display: none;
+    }
+  }
