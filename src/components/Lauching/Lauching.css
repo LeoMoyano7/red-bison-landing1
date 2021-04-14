@@ -1,0 +1,37 @@
+.image-size {
+  width: 50px;
+}
+.space-badge {
+    letter-spacing: 10px;
+    font-size: 17px;
+}
+.title-color {
+    font-size: 55px;
+    background: var(--red-gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+@media (max-width: 414px) {
+  .title-color {
+    font-size: 28px;
+    letter-spacing: 0px;
+  }
+}
+.color-subs {
+  color: darkslategray;
+  font-size: 20px;
+}
+.btn {
+  letter-spacing: 3px;
+  padding: 0.775rem 4rem;
+  border-radius: 0px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.btn-primary {
+  color: #fff;
+  background-image: var(--red-gradient-color);
+}

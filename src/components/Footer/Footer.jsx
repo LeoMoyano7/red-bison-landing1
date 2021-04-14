@@ -19,9 +19,9 @@ const Footer = () => {
 							<div className="row">
 								<div className="col-md-6 py-3 flex-column d-flex">
 									<a className="text-decoration-none text-white" href="#top-content">Home</a>
-									<a className="text-decoration-none text-white" href="#">Features</a>
-									<a className="text-decoration-none text-white" href="#">How it works</a>
-									<a className="text-decoration-none text-white" href="#">Our clients</a>
+									<a className="text-decoration-none text-white" href="/#">Features</a>
+									<a className="text-decoration-none text-white" href="/#">How it works</a>
+									<a className="text-decoration-none text-white" href="/#">Our clients</a>
 								</div>
 							</div>
 						</div>
@@ -34,9 +34,9 @@ const Footer = () => {
 							<div className="row">
 								<div className="col-md-6 py-3 flex-column d-flex">
 									<a className="text-decoration-none text-white" href="#top-content">Home</a>
-									<a className="text-decoration-none text-white" href="#">Features</a>
-									<a className="text-decoration-none text-white" href="#">How it works</a>
-									<a className="text-decoration-none text-white" href="#">Our clients</a>
+									<a className="text-decoration-none text-white" href="/#">Features</a>
+									<a className="text-decoration-none text-white" href="/#">How it works</a>
+									<a className="text-decoration-none text-white" href="/#">Our clients</a>
 								</div>
 							</div>
 						</div>
@@ -49,9 +49,9 @@ const Footer = () => {
 							<div className="row">
 								<div className="col-md-6 py-3 flex-column d-flex">
 									<a className="text-decoration-none text-white" href="#top-content">Home</a>
-									<a className="text-decoration-none text-white" href="#">Features</a>
-									<a className="text-decoration-none text-white" href="#">How it works</a>
-									<a className="text-decoration-none text-white" href="#">Our clients</a>
+									<a className="text-decoration-none text-white" href="/#">Features</a>
+									<a className="text-decoration-none text-white" href="/#">How it works</a>
+									<a className="text-decoration-none text-white" href="/#">Our clients</a>
 								</div>
 							</div>
 						</div>
@@ -64,9 +64,9 @@ const Footer = () => {
 							<div className="row">
 								<div className="col-md-6 py-3 flex-column d-flex">
 									<a className="text-decoration-none text-white" href="#top-content">Home</a>
-									<a className="text-decoration-none text-white" href="#">Features</a>
-									<a className="text-decoration-none text-white" href="#">How it works</a>
-									<a className="text-decoration-none text-white" href="#">Our clients</a>
+									<a className="text-decoration-none text-white" href="/#">Features</a>
+									<a className="text-decoration-none text-white" href="/#">How it works</a>
+									<a className="text-decoration-none text-white" href="/#">Our clients</a>
 								</div>
 							</div>
 						</div>
@@ -79,9 +79,9 @@ const Footer = () => {
 							<div className="row">
 								<div className="col-md-6 py-3 flex-column d-flex">
 									<a className="text-decoration-none text-white" href="#top-content">Home</a>
-									<a className="text-decoration-none text-white" href="#">Features</a>
-									<a className="text-decoration-none text-white" href="#">How it works</a>
-									<a className="text-decoration-none text-white" href="#">Our clients</a>
+									<a className="text-decoration-none text-white" href="/#">Features</a>
+									<a className="text-decoration-none text-white" href="/#">How it works</a>
+									<a className="text-decoration-none text-white" href="/#">Our clients</a>
 								</div>
 							</div>
 						</div>
@@ -94,9 +94,9 @@ const Footer = () => {
 							<div className="row">
 								<div className="col-md-6 py-3 flex-column d-flex">
 									<a className="text-decoration-none text-white" href="#top-content">Home</a>
-									<a className="text-decoration-none text-white" href="#">Features</a>
-									<a className="text-decoration-none text-white" href="#">How it works</a>
-									<a className="text-decoration-none text-white" href="#">Our clients</a>
+									<a className="text-decoration-none text-white" href="/#">Features</a>
+									<a className="text-decoration-none text-white" href="/#">How it works</a>
+									<a className="text-decoration-none text-white" href="/#">Our clients</a>
 								</div>
 							</div>
 						</div>
@@ -108,8 +108,8 @@ const Footer = () => {
 					<div class="hr" />
 					<div className="row">
 						<div className="col d-flex justify-content-between pt-4 pb-5">
-							<span class="text-secondary" href="#">© 2021 Red Bison Technology Group, LLC. All Rights Reserved.</span>
-							<a class="text-secondary card-link" href="#">Privacy Policy</a>
+							<span class="text-secondary" href="/#">© 2021 Red Bison Technology Group, LLC. All Rights Reserved.</span>
+							<a class="text-secondary card-link" href="/#">Privacy Policy</a>
 						</div>
 					</div>
 				</div>

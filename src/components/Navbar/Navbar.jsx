@@ -6,7 +6,6 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container py-2">
                 <img className="navbar-brand w-25" src="https://i2.wp.com/news.theregistrysf.com/wp-content/uploads/2019/10/RB-logo-horiz-main.jpg?w=696&ssl=1" alt=""/>
-                {/* <a className="navbar-brand fs-2" href="#">Red Bison</a> */}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

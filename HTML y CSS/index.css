@@ -1,78 +1,265 @@
 :root {
-    --red-gradient-color: linear-gradient(to right, #e9000b, #b21720);
-    
-  }
+  --red-gradient-color: linear-gradient(to right, #e9000b, #b21720);
+}
 
 /* HEADER */
 .header-color {
-    background-image: var(--red-gradient-color);
-    font-size: 0.8rem;
+  background-image: var(--red-gradient-color);
+  font-size: 0.8rem;
 }
 
 .link-header {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .link-header:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .header-position {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-.header-separator{
-    font-weight: bold;
-    color: #ffffff;
+.header-separator {
+  font-weight: bold;
+  color: #ffffff;
 }
 @media (max-width: 769px) {
-    .header-position {
-     justify-content: center;
-    }
-    .header-separator {
-        display: none;
-    }
+  .header-position {
+    justify-content: center;
   }
+  .header-separator {
+    display: none;
+  }
+}
 
-  /* NAVBAR */
-.a-navbar:hover{
-    font-weight: bold;
-} 
-.a-navbar:active{
-    font-weight: bold;
+/* NAVBAR */
+.a-navbar:hover {
+  font-weight: bold;
+}
+.a-navbar:active {
+  font-weight: bold;
 }
 
 /* FOOTER */
 .background-footer {
-    background: #1a1a1a;
+  background: #1a1a1a;
 }
 .hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    margin: auto;
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin: auto;
 }
 
 .small-font {
-    font-size: .8rem!important;
+  font-size: 0.8rem !important;
 }
 
 .link-footer {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .link-footer:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 svg {
-    fill: white;
+  fill: white;
 }
 
 @media (max-width: 576px) {
-    footer {
-     text-align: center;
-    }
+  footer {
+    text-align: center;
   }
+}
+
+/* CONTENT */
+.image-size {
+  width: 50px;
+}
+.space-badge {
+  letter-spacing: 10px;
+  font-size: 17px;
+}
+.title-color {
+  font-size: 55px;
+  background: var(--red-gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+@media (max-width: 414px) {
+  .title-color {
+    font-size: 28px;
+    letter-spacing: 0px;
+  }
+}
+.color-subs {
+  color: darkslategray;
+  font-size: 20px;
+}
+.btn {
+  letter-spacing: 3px;
+  padding: 0.775rem 4rem;
+  border-radius: 0px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.btn-primary {
+  color: #fff;
+  background-image: var(--red-gradient-color);
+}
+.mainClass{
+    background-image: url("https://www.jll.ca/images/abstract/am-image-new-office-space-unoccupied.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    background: var(--red-gradient-color);
+    text-align: center;
+    color: white;
+}
+.containerBenefits{
+    background-color: rgba(240, 248, 255, 0.85);
+}
+.text-bold {
+    font-size: 16px;
+    font-weight: 600;
+}
+.fully-text{
+    font-size: 13px;
+}
+.text-title{
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+.btn {
+  letter-spacing: 3px;
+  padding: 0.775rem 4rem;
+  border-radius: 0px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.btn-primary {
+  color: #fff;
+  background-image: var(--red-gradient-color);
+}
+.color-bg {
+  background: var(--red-gradient-color);
+  color: white;
+}
+.title-style {
+  font-weight: bold;
+  letter-spacing: 15px;
+  margin-left: 5rem;
+  margin-bottom: 0px;
+}
+.subs-style {
+  font-size: 70px;
+  font-weight: 700;
+  background: var(--red-gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.text-style {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 6.5px;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.services-style {
+  font-size: 45px;
+  letter-spacing: 12px;
+  font-weight: 600;
+}
+.title-mb {
+  font-weight: 900;
+  color: darkslategray;
+  font-size: 70px;
+}
+.mbps {
+  font-weight: 100;
+  font-size: 45px;
+}
+.subs-priv {
+  font-size: 20px;
+  color: darkslategray;
+}
+.bg-color {
+  font-size: 15px;
+  background-color: gainsboro;
+  letter-spacing: 2px;
+}
+.priv {
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.containerMbps {
+  position: relative;
+}
+.esquina {
+  position: absolute;
+  bottom: -10px;
+  left: -3rem;
+  width: 0;
+  height: 0;
+  border-right: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-left: 25px solid #e9000b;
+  border-bottom: 25px solid #e9000b;
+}
+.btn-custom {
+  padding: 1rem 20.8rem;
+}
+.width-bg {
+  width: 110%;
+}
+@media (max-width: 800px) {
+  .services-style {
+    font-size: 22px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding: 8px 0px;
+  }
+  .btn-custom {
+    padding: 0.775rem 4rem;
+  }
+  .width-bg {
+    width: 100%;
+  }
+  .subs-style {
+    font-size: 40px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .text-style {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .image-none {
+    display: none;
+  }
+  .title-style {
+    margin-left: 0;
+    text-align: center;
+  }
+}
