@@ -11,6 +11,7 @@
 .link-header {
   color: #ffffff;
   font-weight: bold;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
@@ -36,6 +37,11 @@
 }
 
 /* NAVBAR */
+
+.navbar-brand {
+  height: 50%;
+  width: auto;
+}
 .a-navbar:hover {
   font-weight: bold;
 }
