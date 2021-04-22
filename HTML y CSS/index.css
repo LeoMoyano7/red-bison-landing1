@@ -1,6 +1,38 @@
 :root {
   --red-gradient-color: linear-gradient(to right, #e9000b, #b21720);
 }
+@font-face {
+  font-family: 'AvenirBold';
+  src: url('./fonts/AvenirNextLTPro-Bold.otf');
+}
+@font-face {
+  font-family: 'AvenirRegular';
+  src: url('./fonts/AvenirNextLTPro-Regular.otf');
+}
+@font-face {
+  font-family: 'AvenirExtraBold';
+  src: url('./fonts/AvenirNextLTPro-HeavyCn.otf');
+}
+@font-face {
+  font-family: 'AvenirMedium';
+  src: url('./fonts/AvenirNextW1G-Medium.otf');
+}
+@font-face {
+  font-family: 'SinkinSansThin';
+  src: url('./fonts/SinkinSans-100Thin.otf');
+}
+@font-face {
+  font-family: 'SinkinSansMedium';
+  src: url('./fonts/SinkinSans-500Medium.otf');
+}
+@font-face {
+  font-family: 'SinkinSansBold';
+  src: url('./fonts/SinkinSans-700Bold.otf');
+}
+@font-face {
+  font-family: 'SinkinSansExtraBold';
+  src: url('./fonts/SinkinSans-900XBlack.otf');
+}
 
 /* HEADER */
 .header-color {
@@ -110,6 +142,9 @@ svg {
   font-weight: bold;
   font-size: 17px;
 }
+.font-redbison{
+  font-family: 'AvenirRegular';
+}
 .btn-primary {
   color: #fff;
   background-image: var(--red-gradient-color);
@@ -159,21 +194,24 @@ svg {
   color: white;
 }
 .title-style {
-  font-weight: bold;
   letter-spacing: 15px;
   margin-left: 5rem;
   margin-bottom: 0px;
+  font-size: 25px;
+  font-family: 'AvenirBold'
+}
+.position-main{
+  position: relative;
+  top: -45px;
 }
 .subs-style {
-  font-size: 70px;
-  font-weight: 700;
+  font-size: 115px;
   background: var(--red-gradient-color);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  letter-spacing: 4px;
-  margin-top: 5rem;
+  letter-spacing: 15px;
+  margin-top: 4.5rem;
   margin-left: 5rem;
 }
 .text-style {
@@ -183,10 +221,15 @@ svg {
   margin-left: 5rem;
   margin-top: 1rem;
 }
+.font-wifi{
+  font-family: 'AvenirBold';
+}
 .services-style {
   font-size: 45px;
-  letter-spacing: 12px;
-  font-weight: 600;
+  letter-spacing: 15px;
+  font-weight: 500;
+  padding: 20px 0px;
+  font-family: 'SinkinSansMedium';
 }
 .title-mb {
   font-weight: 900;
@@ -194,8 +237,10 @@ svg {
   font-size: 70px;
 }
 .mbps {
-  font-weight: 100;
-  font-size: 45px;
+    font-family: 'SinkinSansThin';
+    font-size: 55px;
+    padding-bottom: 24px;
+    letter-spacing: 4px;
 }
 .subs-priv {
   font-size: 20px;
@@ -205,11 +250,11 @@ svg {
   font-size: 15px;
   background-color: gainsboro;
   letter-spacing: 2px;
+  font-family: 'SinkinSansThin';
 }
 .priv {
-  font-size: 35px;
-  letter-spacing: 1px;
-  font-weight: 700;
+    font-size: 39.5px;
+    font-family: 'SinkinSansMedium';
 }
 .containerMbps {
   position: relative;
@@ -226,12 +271,18 @@ svg {
   border-bottom: 25px solid #e9000b;
 }
 .btn-custom {
-  padding: 1rem 20.8rem;
+  padding: 1.5rem 0;
+  font-size: 30px;
+  font-family: 'AvenirBold';
+}
+.cantidad {
+  font-size: 110px;
+  font-family: 'SinkinSansExtraBold';
 }
 .width-bg {
-  width: 110%;
+  width: 130%;
 }
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .services-style {
     font-size: 22px;
     letter-spacing: 10px;
@@ -246,9 +297,8 @@ svg {
   }
   .subs-style {
     font-size: 40px;
-    margin-left: 0;
-    text-align: center;
-    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
   .text-style {
     margin-left: 0;
@@ -260,6 +310,16 @@ svg {
   }
   .title-style {
     margin-left: 0;
+    letter-spacing: 2px;
     text-align: center;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .subs-style {
+    font-size: 60px;
+  }
+  .width-bg {
+    width: 100%;
   }
 }
