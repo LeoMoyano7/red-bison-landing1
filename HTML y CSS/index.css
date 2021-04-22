@@ -290,13 +290,26 @@ svg {
 }
 @media (max-width: 767px) {
   .services-style {
-    font-size: 22px;
-    letter-spacing: 10px;
+    font-size: 21px;
+    letter-spacing: 5px;
     font-weight: bold;
     padding: 8px 0px;
   }
+  .mbps {
+    font-family: 'SinkinSansThin';
+    font-size: 33px;
+    padding-bottom: 24px;
+    letter-spacing: 3px;
+  }
+  .cantidad {
+    font-size: 60px;
+  }
+  .position-main{
+    position: static;
+  }
   .btn-custom {
     padding: 0.775rem 4rem;
+    font-size: 18px;
   }
   .width-bg {
     width: 100%;
@@ -316,9 +329,9 @@ svg {
   }
   .title-style {
     margin-left: 0;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px){
@@ -327,5 +340,18 @@ svg {
   }
   .width-bg {
     width: 100%;
+  }
+  .position-main {
+    position: relative;
+    top: 0;
+  }
+  .services-style{
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding: 20px 0px;
+    font-family: 'SinkinSansMedium';
+  }
+  .margin-hand{
+    margin-left: 50%;
   }
 }
