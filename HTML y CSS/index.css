@@ -155,8 +155,18 @@ svg {
   color: #fff;
   background-image: var(--red-gradient-color);
 }
+.images-position{
+  height: 70px;
+  text-align: center;
+}
+.bg-content-wifi{
+  background-image: url("./img/Commercial\ background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .mainClass{
-    background-image: url("https://www.jll.ca/images/abstract/am-image-new-office-space-unoccupied.jpg");
+    background-image: url("./img/Key\ Benefits\ background\ image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
