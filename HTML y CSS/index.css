@@ -22,6 +22,10 @@
   src: url('./fonts/SinkinSans-100Thin.otf');
 }
 @font-face {
+  font-family: 'SinkinSansLight';
+  src: url('./fonts/SinkinSans-200XLight.otf');
+}
+@font-face {
   font-family: 'SinkinSansMedium';
   src: url('./fonts/SinkinSans-500Medium.otf');
 }
@@ -129,6 +133,7 @@ svg {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   letter-spacing: 4px;
+  font-family: 'AvenirBold';
 }
 @media (max-width: 414px) {
   .title-color {
@@ -183,15 +188,26 @@ svg {
     background-color: rgba(240, 248, 255, 0.85);
 }
 .text-bold {
-    font-size: 16px;
-    font-weight: 600;
+  font-family: 'AvenirMedium';
+  font-size: 19px;
+  font-weight: 600;
+}
+.triangulo{
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid #C62625;
+  border-top: 7.5px solid #f0ac4e00;
+  border-bottom: 7.5px solid #d9544f00; 
+  left: -20px;
+  top: 5px;
 }
 .fully-text{
     font-size: 13px;
 }
 .text-title{
-    letter-spacing: 7px;
-    font-weight: 700;
+  letter-spacing: 25px;
+  font-family: 'SinkinSansLight';
+  font-size: 30px;
 }
 .btn {
   letter-spacing: 3px;
@@ -263,10 +279,13 @@ svg {
   color: darkslategray;
 }
 .bg-color {
-  font-size: 15px;
-  background-color: gainsboro;
-  letter-spacing: 2px;
+  font-size: 18px;
+  background-color: #f2f2f2;
   font-family: 'SinkinSansThin';
+  letter-spacing: 4px;
+}
+.font-text-btn{
+  font-family: 'AvenirBold';
 }
 .priv {
     font-size: 28.5px;
@@ -304,6 +323,10 @@ svg {
     letter-spacing: 5px;
     font-weight: bold;
     padding: 8px 0px;
+  }
+  .text-title{
+    letter-spacing: 20px;
+    font-size: 20px;
   }
   .mbps {
     font-family: 'SinkinSansThin';
