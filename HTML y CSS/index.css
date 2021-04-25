@@ -1,6 +1,42 @@
 :root {
   --red-gradient-color: linear-gradient(to right, #e9000b, #b21720);
 }
+@font-face {
+  font-family: 'AvenirBold';
+  src: url('./fonts/AvenirNextLTPro-Bold.otf');
+}
+@font-face {
+  font-family: 'AvenirRegular';
+  src: url('./fonts/AvenirNextLTPro-Regular.otf');
+}
+@font-face {
+  font-family: 'AvenirExtraBold';
+  src: url('./fonts/AvenirNextLTPro-HeavyCn.otf');
+}
+@font-face {
+  font-family: 'AvenirMedium';
+  src: url('./fonts/AvenirNextW1G-Medium.otf');
+}
+@font-face {
+  font-family: 'SinkinSansThin';
+  src: url('./fonts/SinkinSans-100Thin.otf');
+}
+@font-face {
+  font-family: 'SinkinSansLight';
+  src: url('./fonts/SinkinSans-200XLight.otf');
+}
+@font-face {
+  font-family: 'SinkinSansMedium';
+  src: url('./fonts/SinkinSans-500Medium.otf');
+}
+@font-face {
+  font-family: 'SinkinSansBold';
+  src: url('./fonts/SinkinSans-700Bold.otf');
+}
+@font-face {
+  font-family: 'SinkinSansExtraBold';
+  src: url('./fonts/SinkinSans-900XBlack.otf');
+}
 
 /* HEADER */
 .header-color {
@@ -97,6 +133,7 @@ svg {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   letter-spacing: 4px;
+  font-family: 'AvenirBold';
 }
 @media (max-width: 414px) {
   .title-color {
@@ -116,12 +153,25 @@ svg {
   font-weight: bold;
   font-size: 17px;
 }
+.font-redbison{
+  font-family: 'AvenirRegular';
+}
 .btn-primary {
   color: #fff;
   background-image: var(--red-gradient-color);
 }
+.images-position{
+  height: 70px;
+  text-align: center;
+}
+.bg-content-wifi{
+  background-image: url("./img/Commercial\ background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .mainClass{
-    background-image: url("https://www.jll.ca/images/abstract/am-image-new-office-space-unoccupied.jpg");
+    background-image: url("./img/Key\ Benefits\ background\ image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,15 +188,26 @@ svg {
     background-color: rgba(240, 248, 255, 0.85);
 }
 .text-bold {
-    font-size: 16px;
-    font-weight: 600;
+  font-family: 'AvenirMedium';
+  font-size: 19px;
+  font-weight: 600;
+}
+.triangulo{
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid #C62625;
+  border-top: 7.5px solid #f0ac4e00;
+  border-bottom: 7.5px solid #d9544f00; 
+  left: -20px;
+  top: 5px;
 }
 .fully-text{
     font-size: 13px;
 }
 .text-title{
-    letter-spacing: 7px;
-    font-weight: 700;
+  letter-spacing: 25px;
+  font-family: 'SinkinSansLight';
+  font-size: 30px;
 }
 .btn {
   letter-spacing: 3px;
@@ -165,21 +226,24 @@ svg {
   color: white;
 }
 .title-style {
-  font-weight: bold;
-  letter-spacing: 15px;
+  letter-spacing: 11px;
   margin-left: 5rem;
   margin-bottom: 0px;
+  font-size: 25px;
+  font-family: 'AvenirBold'
+}
+.position-main{
+  position: relative;
+  top: -45px;
 }
 .subs-style {
-  font-size: 70px;
-  font-weight: 700;
+  font-size: 85px;
   background: var(--red-gradient-color);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  letter-spacing: 4px;
-  margin-top: 5rem;
+  letter-spacing: 15px;
+  margin-top: 4.5rem;
   margin-left: 5rem;
 }
 .text-style {
@@ -189,10 +253,15 @@ svg {
   margin-left: 5rem;
   margin-top: 1rem;
 }
+.font-wifi{
+  font-family: 'AvenirBold';
+}
 .services-style {
-  font-size: 45px;
-  letter-spacing: 12px;
-  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 15px;
+  font-weight: 500;
+  padding: 20px 0px;
+  font-family: 'SinkinSansMedium';
 }
 .title-mb {
   font-weight: 900;
@@ -200,22 +269,27 @@ svg {
   font-size: 70px;
 }
 .mbps {
-  font-weight: 100;
-  font-size: 45px;
+    font-family: 'SinkinSansThin';
+    font-size: 45px;
+    padding-bottom: 24px;
+    letter-spacing: 4px;
 }
 .subs-priv {
   font-size: 20px;
   color: darkslategray;
 }
 .bg-color {
-  font-size: 15px;
-  background-color: gainsboro;
-  letter-spacing: 2px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  font-family: 'SinkinSansThin';
+  letter-spacing: 4px;
+}
+.font-text-btn{
+  font-family: 'AvenirBold';
 }
 .priv {
-  font-size: 35px;
-  letter-spacing: 1px;
-  font-weight: 700;
+    font-size: 28.5px;
+    font-family: 'SinkinSansMedium';
 }
 .containerMbps {
   position: relative;
@@ -223,7 +297,7 @@ svg {
 .esquina {
   position: absolute;
   bottom: -10px;
-  left: -3rem;
+  left: -2.8rem;
   width: 0;
   height: 0;
   border-right: 25px solid transparent;
@@ -232,29 +306,51 @@ svg {
   border-bottom: 25px solid #e9000b;
 }
 .btn-custom {
-  padding: 1rem 20.8rem;
+  padding: 1.5rem 0;
+  font-size: 30px;
+  font-family: 'AvenirBold';
+}
+.cantidad {
+  font-size: 100px;
+  font-family: 'SinkinSansExtraBold';
 }
 .width-bg {
-  width: 110%;
+  width: 130%;
 }
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .services-style {
-    font-size: 22px;
-    letter-spacing: 10px;
+    font-size: 21px;
+    letter-spacing: 5px;
     font-weight: bold;
     padding: 8px 0px;
   }
+  .text-title{
+    letter-spacing: 20px;
+    font-size: 20px;
+  }
+  .mbps {
+    font-family: 'SinkinSansThin';
+    font-size: 33px;
+    padding-bottom: 24px;
+    letter-spacing: 3px;
+  }
+  .cantidad {
+    font-size: 60px;
+  }
+  .position-main{
+    position: static;
+  }
   .btn-custom {
     padding: 0.775rem 4rem;
+    font-size: 18px;
   }
   .width-bg {
     width: 100%;
   }
   .subs-style {
     font-size: 40px;
-    margin-left: 0;
-    text-align: center;
-    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
   .text-style {
     margin-left: 0;
@@ -266,6 +362,29 @@ svg {
   }
   .title-style {
     margin-left: 0;
+    letter-spacing: 4px;
     text-align: center;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .subs-style {
+    font-size: 60px;
+  }
+  .width-bg {
+    width: 100%;
+  }
+  .position-main {
+    position: relative;
+    top: 0;
+  }
+  .services-style{
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding: 20px 0px;
+    font-family: 'SinkinSansMedium';
+  }
+  .margin-hand{
+    margin-left: 50%;
   }
 }
