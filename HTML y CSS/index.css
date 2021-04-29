@@ -131,7 +131,7 @@ svg {
   letter-spacing: 10px;
   font-size: 17px;
 }
-.title-color {
+.title-color{
   font-size: 55px;
   background: var(--red-gradient-color);
   -webkit-background-clip: text;
@@ -139,6 +139,10 @@ svg {
   font-weight: bold;
   letter-spacing: 4px;
   font-family: 'AvenirBold';
+}
+.bg-color-text{
+  background: white;
+  -webkit-background-clip: text;
 }
 @media (max-width: 414px) {
   .title-color {
@@ -326,6 +330,124 @@ svg {
 }
 .width-bg {
   width: 130%;
+}
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+  background: var(--red-gradient-color);
+	position: relative;
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+  border: 3px solid #ff000000;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+  color: #C22524;
+  border: 3px solid #C22524;
+	text-shadow: none;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #00f0;
+    border-color: #0a58ca00;
+    box-shadow: 0 0 0 0.25rem #c2252480;
+}
+.bg-color-text:hover{
+  background: var(--red-gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 950%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	color: #fff;
+	border-radius: 0;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+  z-index: 1;
+}
+a.animated-button.victoria-one:after {
+	background: #ffffff;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+a.animated-button.victoria-two {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-two:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.victoria-three {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-three:after {
+	background: #D24D57;
+	opacity: .5;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.victoria-three:hover:after {
+	height: 140%;
+	opacity: 1;
+}
+a.animated-button.victoria-four {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-four:after {
+	background: #D24D57;
+	opacity: .5;
+	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	-webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+a.animated-button.victoria-four:hover:after {
+	opacity: 1;
+	height: 600% !important;
 }
 @media (max-width: 767px) {
   .services-style {
