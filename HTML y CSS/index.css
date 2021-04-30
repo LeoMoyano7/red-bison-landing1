@@ -168,6 +168,21 @@ svg {
     height: 250px;
   }
   
+  .mobile-item-partner{
+    display: block;
+    height: 40px;
+  }
+  .partner-image{
+    height: 40px;
+    width: auto;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+  }
+  .partner-carousel {
+    height: 60px !important;
+  }
+  
 }
 .color-subs {
   color: darkslategray;
@@ -547,6 +562,17 @@ a.animated-button.victoria-four:hover:after {
   }
 }
 
+.partner-carousel {
+  background:#000000a3;
+  height: 100px;
+  text-align: center;
+}
+.partner-inner {
+  display: flex;
+  height: 100%;
+  align-content: center;
+  flex-wrap: wrap;
+}
 
 /* CAROUSEL
 .carousel-image{
