@@ -64,33 +64,22 @@
   font-weight: bold;
   color: #ffffff;
 }
-
-@media (max-width: 1440px) {
+@media (max-width: 1920px) {
   .carousel-image{
-    height: 550px;
-    width: auto;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
+    height: 36vw;
   }
   
   .mobile-item{
-    display: block;
-    height: 550px;
+    height: 36vw;
   }
 }
 
 @media (max-width: 1024px) {
   .carousel-image{
     height: 650px;
-    width: auto;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
   }
   
   .mobile-item{
-    display: block;
     height: 650px;
   }
 }
@@ -110,14 +99,9 @@
 
   .carousel-image{
     height: 450px;
-    width: auto;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
   }
   
   .mobile-item{
-    display: block;
     height: 450px;
   }
 }
@@ -209,14 +193,9 @@ svg {
   }
   .carousel-image{
     height: 250px;
-    width: auto;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
   }
   
   .mobile-item{
-    display: block;
     height: 250px;
   }
   
@@ -610,14 +589,9 @@ a.animated-button.victoria-four:hover:after {
   }
   .carousel-image{
     height: 260px;
-    width: auto;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
   }
   
   .mobile-item{
-    display: block;
     height: 260px;
   }
 }
@@ -649,4 +623,17 @@ a.animated-button.victoria-four:hover:after {
     padding-left: 72px;
     padding-right: 72px;
   }
+}
+
+
+/* CAROUSEL */
+.carousel-image{
+  width: auto !important;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+}
+
+.carousel-item{
+  display: block;
 }
