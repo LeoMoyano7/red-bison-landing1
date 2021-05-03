@@ -581,3 +581,7 @@ a.animated-button.victoria-four:hover:after {
 .carousel-item {
 	display: block;
 }
+
+.font-footer{
+  font-family: 'AvenirRegular';
+}
