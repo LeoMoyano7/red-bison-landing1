@@ -50,11 +50,12 @@
   font-size: 0.9rem;
   text-decoration: none;
 }
-
 .link-header:hover {
   color: #ffffff;
 }
-
+.card-header{
+  background: var(--red-gradient-color);
+}
 .header-position {
   text-align: center;
 }
@@ -63,6 +64,26 @@
   font-weight: bold;
   color: #ffffff;
 }
+@media (max-width: 1920px) {
+  .carousel-image{
+    height: 36vw;
+  }
+  
+  .mobile-item{
+    height: 36vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel-image{
+    height: 650px;
+  }
+  
+  .mobile-item{
+    height: 650px;
+  }
+}
+
 @media (max-width: 769px) {
   .header-position {
     justify-content: center;
@@ -74,6 +95,14 @@
     height: 3rem !important;
     width: auto !important;
     margin-right: 0 !important;
+  }
+
+  .carousel-image{
+    height: 450px;
+  }
+  
+  .mobile-item{
+    height: 450px;
   }
 }
 
@@ -144,6 +173,13 @@ svg {
   background: white;
   -webkit-background-clip: text;
 }
+.title-style-card {
+    letter-spacing: 6px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'AvenirBold';
+}
 @media (max-width: 414px) {
   
   .title-color {
@@ -157,14 +193,9 @@ svg {
   }
   .carousel-image{
     height: 250px;
-    width: auto;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
   }
   
   .mobile-item{
-    display: block;
     height: 250px;
   }
   
@@ -202,6 +233,11 @@ svg {
 .btn-primary {
   color: #fff;
   background-image: var(--red-gradient-color);
+}
+.cost-title-style{
+  font-family: 'AvenirMedium';
+  font-size: 22px;
+  color: #4d4d4d;
 }
 .images-position{
   height: 70px;
@@ -299,6 +335,15 @@ svg {
 .font-wifi{
   font-family: 'AvenirBold';
 }
+.width-card{
+  width: 30.5%;
+  border-radius: 0;
+}
+.color-footer-card{
+  color: gray;
+  font-family: 'AvenirRegular';
+  font-size: 15px;
+}
 .services-style {
   font-size: 35px;
   letter-spacing: 15px;
@@ -310,6 +355,17 @@ svg {
   font-weight: 900;
   color: darkslategray;
   font-size: 70px;
+}
+.background-container{
+  background-color: #e6e6e6;
+}
+.background-card{
+  background-color: white;
+}
+.card{
+  -webkit-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 50px -40px rgba(0,0,0,0.75);
 }
 .mbps {
     font-family: 'SinkinSansThin';
@@ -354,8 +410,23 @@ svg {
   font-family: 'AvenirBold';
 }
 .cantidad {
-  font-size: 100px;
-  font-family: 'SinkinSansExtraBold';
+  font-size: 55px;
+  font-family: 'AvenirBold';
+}
+.card-text{
+  font-family: 'AvenirRegular';
+  font-size: 19px;
+  color: gray;
+}
+.cost-style{
+  font-family: 'AvenirBold';
+  font-size: 70px;
+  color: #f60000;
+}
+.card-title{
+  font-size: 24px;
+  color: #4D4D4D;;
+  font-family: 'AvenirMedium';
 }
 .width-bg {
   width: 130%;
@@ -489,6 +560,10 @@ a.animated-button.victoria-four:hover:after {
     letter-spacing: 20px;
     font-size: 15px;
   }
+  .width-card {
+    width: 100%;
+    border-radius: 0;
+  }
   .mbps {
     font-family: 'SinkinSansThin';
     font-size: 33px;
@@ -502,7 +577,7 @@ a.animated-button.victoria-four:hover:after {
     position: static;
   }
   .btn-custom {
-    padding: 0.775rem 4rem;
+    padding: 0.775rem 72px;
     font-size: 18px;
   }
   .width-bg {
@@ -529,14 +604,9 @@ a.animated-button.victoria-four:hover:after {
   }
   .carousel-image{
     height: 260px;
-    width: auto;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
   }
   
   .mobile-item{
-    display: block;
     height: 260px;
   }
 }
@@ -546,6 +616,10 @@ a.animated-button.victoria-four:hover:after {
   }
   .width-bg {
     width: 100%;
+  }
+  .width-card {
+    width: 100%;
+    border-radius: 0;
   }
   .position-main {
     position: relative;
@@ -559,6 +633,10 @@ a.animated-button.victoria-four:hover:after {
   }
   .margin-hand{
     margin-left: 50%;
+  }
+  .btn-custom{
+    padding-left: 72px;
+    padding-right: 72px;
   }
 }
 
@@ -574,9 +652,8 @@ a.animated-button.victoria-four:hover:after {
   flex-wrap: wrap;
 }
 
-/* CAROUSEL
+/* CAROUSEL */
 .carousel-image{
-  height: 311px !important;
   width: auto !important;
   transform: translateX(-50%);
   position: absolute;
@@ -585,5 +662,4 @@ a.animated-button.victoria-four:hover:after {
 
 .carousel-item{
   display: block;
-  height: 311px;
-} */
+}
