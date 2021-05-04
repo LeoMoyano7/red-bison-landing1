@@ -50,11 +50,12 @@
 	font-size: 0.9rem;
 	text-decoration: none;
 }
-
 .link-header:hover {
 	color: #ffffff;
 }
-
+.card-header{
+  background: var(--red-gradient-color);
+}
 .header-position {
 	text-align: center;
 }
@@ -173,6 +174,13 @@ svg {
 	background: white;
 	-webkit-background-clip: text;
 }
+.title-style-card {
+    letter-spacing: 6px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'AvenirBold';
+}
 @media (max-width: 414px) {
 	.title-color {
 		font-size: 28px;
@@ -207,35 +215,40 @@ svg {
 	font-family: 'AvenirRegular';
 }
 .btn-primary {
-	color: #fff;
-	background-image: var(--red-gradient-color);
+  color: #fff;
+  background-image: var(--red-gradient-color);
 }
-.images-position {
-	height: 70px;
-	text-align: center;
+.cost-title-style{
+  font-family: 'AvenirMedium';
+  font-size: 22px;
+  color: #4d4d4d;
 }
-.bg-content-wifi {
-	background-image: url("./img/Commercial\ background.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+.images-position{
+  height: 70px;
+  text-align: center;
 }
-.mainClass {
-	background-image: url("./img/Key\ Benefits\ background\ image.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.bg-content-wifi{
+  background-image: url("./img/Commercial\ background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.title {
-	background: var(--red-gradient-color);
-	text-align: center;
-	color: white;
+.mainClass{
+    background-image: url("./img/Key\ Benefits\ background\ image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.containerBenefits {
-	background-color: rgba(240, 248, 255, 0.85);
+.title{
+    background: var(--red-gradient-color);
+    text-align: center;
+    color: white;
+}
+.containerBenefits{
+    background-color: rgba(240, 248, 255, 0.85);
 }
 .text-bold {
 	font-family: 'AvenirMedium';
@@ -306,6 +319,15 @@ svg {
 .font-wifi {
 	font-family: 'AvenirBold';
 }
+.width-card{
+  width: 30.5%;
+  border-radius: 0;
+}
+.color-footer-card{
+  color: gray;
+  font-family: 'AvenirRegular';
+  font-size: 15px;
+}
 .services-style {
 	font-size: 35px;
 	letter-spacing: 15px;
@@ -317,6 +339,17 @@ svg {
 	font-weight: 900;
 	color: darkslategray;
 	font-size: 70px;
+}
+.background-container{
+  background-color: #e6e6e6;
+}
+.background-card{
+  background-color: white;
+}
+.card{
+  -webkit-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 50px -40px rgba(0,0,0,0.75);
 }
 .mbps {
 	font-family: 'SinkinSansThin';
@@ -361,8 +394,23 @@ svg {
 	font-family: 'AvenirBold';
 }
 .cantidad {
-	font-size: 100px;
-	font-family: 'SinkinSansExtraBold';
+  font-size: 55px;
+  font-family: 'AvenirBold';
+}
+.card-text{
+  font-family: 'AvenirRegular';
+  font-size: 19px;
+  color: gray;
+}
+.cost-style{
+  font-family: 'AvenirBold';
+  font-size: 70px;
+  color: #f60000;
+}
+.card-title{
+  font-size: 24px;
+  color: #4D4D4D;;
+  font-family: 'AvenirMedium';
 }
 .width-bg {
 	width: 130%;
@@ -492,58 +540,94 @@ a.animated-button.victoria-four:hover:after {
 	height: 600% !important;
 }
 @media (max-width: 767px) {
-	.services-style {
-		font-size: 21px;
-		letter-spacing: 5px;
-		font-weight: bold;
-		padding: 8px 0px;
-	}
-	.text-title {
-		letter-spacing: 20px;
-		font-size: 15px;
-	}
-	.mbps {
-		font-family: 'SinkinSansThin';
-		font-size: 33px;
-		padding-bottom: 24px;
-		letter-spacing: 3px;
-	}
-	.cantidad {
-		font-size: 60px;
-	}
-	.position-main {
-		position: static;
-	}
-	.btn-custom {
-		padding: 0.775rem 4rem;
-		font-size: 18px;
-	}
-	.width-bg {
-		width: 100%;
-	}
-	.subs-style {
-		font-size: 40px;
-		margin-left: 1rem;
-		margin-top: 2rem;
-	}
-	.text-style {
-		margin-left: 0;
-		text-align: center;
-		margin-bottom: 3rem;
-	}
-	.image-none {
-		display: none;
-	}
-	.title-style {
-		margin-left: 0;
-		letter-spacing: 4px;
-		text-align: center;
-		font-size: 18px;
-	}
-	.carousel-image {
-		height: 260px;
-	}
-
+  .services-style {
+    font-size: 21px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    padding: 8px 0px;
+  }
+  .text-title{
+    letter-spacing: 20px;
+    font-size: 15px;
+  }
+  .width-card {
+    width: 100%;
+    border-radius: 0;
+  }
+  .mbps {
+    font-family: 'SinkinSansThin';
+    font-size: 33px;
+    padding-bottom: 24px;
+    letter-spacing: 3px;
+  }
+  .cantidad {
+    font-size: 60px;
+  }
+  .position-main{
+    position: static;
+  }
+  .btn-custom {
+    padding: 0.775rem 72px;
+    font-size: 18px;
+  }
+  .width-bg {
+    width: 100%;
+  }
+  .subs-style {
+    font-size: 40px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  .text-style {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .image-none {
+    display: none;
+  }
+  .title-style {
+    margin-left: 0;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .carousel-image{
+    height: 260px;
+  }
+  
+  .mobile-item{
+    height: 260px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .subs-style {
+    font-size: 60px;
+  }
+  .width-bg {
+    width: 100%;
+  }
+  .width-card {
+    width: 100%;
+    border-radius: 0;
+  }
+  .position-main {
+    position: relative;
+    top: 0;
+  }
+  .services-style{
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding: 20px 0px;
+    font-family: 'SinkinSansMedium';
+  }
+  .margin-hand{
+    margin-left: 50%;
+  }
+  .btn-custom{
+    padding-left: 72px;
+    padding-right: 72px;
+  }
 	.mobile-item {
 		height: 260px;
 	}
