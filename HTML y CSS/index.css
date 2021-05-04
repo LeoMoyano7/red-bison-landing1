@@ -53,8 +53,8 @@
 .link-header:hover {
 	color: #ffffff;
 }
-.card-header{
-  background: var(--red-gradient-color);
+.card-header {
+	background: var(--red-gradient-color);
 }
 .header-position {
 	text-align: center;
@@ -76,11 +76,15 @@
 
 @media (max-width: 1024px) {
 	.carousel-image {
-		height: 650px;
+		height: 550px;
 	}
 
 	.mobile-item {
-		height: 650px;
+		height: 550px;
+	}
+
+	.img-water {
+		height: 40%;
 	}
 }
 
@@ -104,6 +108,9 @@
 	.mobile-item {
 		height: 450px;
 	}
+	.footer-center {
+		text-align: center;
+	}
 }
 
 /* NAVBAR */
@@ -121,8 +128,14 @@
 
 /* FOOTER */
 .background-footer {
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%, rgba(253,187,45,1) 333333%, rgba(34,193,195,1) 0333333%);
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(51, 51, 51, 1) 100%,
+		rgba(253, 187, 45, 1) 333333%,
+		rgba(34, 193, 195, 1) 0333333%
+	);
 }
 .hr {
 	border: 0;
@@ -175,11 +188,11 @@ svg {
 	-webkit-background-clip: text;
 }
 .title-style-card {
-    letter-spacing: 6px;
-    margin-bottom: 0px;
-    font-size: 20px;
-    padding: 20px;
-    font-family: 'AvenirBold';
+	letter-spacing: 6px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	padding: 20px;
+	font-family: 'AvenirBold';
 }
 @media (max-width: 414px) {
 	.title-color {
@@ -198,6 +211,21 @@ svg {
 	.mobile-item {
 		height: 250px;
 	}
+
+	.mobile-item-partner {
+		display: block;
+		height: 40px;
+	}
+	.partner-image {
+		height: 40px;
+		width: auto;
+		transform: translateX(-50%);
+		position: absolute;
+		left: 50%;
+	}
+	.partner-carousel {
+		height: 60px !important;
+	}
 }
 .color-subs {
 	color: darkslategray;
@@ -215,40 +243,40 @@ svg {
 	font-family: 'AvenirRegular';
 }
 .btn-primary {
-  color: #fff;
-  background-image: var(--red-gradient-color);
+	color: #fff;
+	background-image: var(--red-gradient-color);
 }
-.cost-title-style{
-  font-family: 'AvenirMedium';
-  font-size: 22px;
-  color: #4d4d4d;
+.cost-title-style {
+	font-family: 'AvenirMedium';
+	font-size: 22px;
+	color: #4d4d4d;
 }
-.images-position{
-  height: 70px;
-  text-align: center;
+.images-position {
+	height: 70px;
+	text-align: center;
 }
-.bg-content-wifi{
-  background-image: url("./img/Commercial\ background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bg-content-wifi {
+	background-image: url("./img/Commercial\ background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.mainClass{
-    background-image: url("./img/Key\ Benefits\ background\ image.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mainClass {
+	background-image: url("./img/Key\ Benefits\ background\ image.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.title{
-    background: var(--red-gradient-color);
-    text-align: center;
-    color: white;
+.title {
+	background: var(--red-gradient-color);
+	text-align: center;
+	color: white;
 }
-.containerBenefits{
-    background-color: rgba(240, 248, 255, 0.85);
+.containerBenefits {
+	background-color: rgba(240, 248, 255, 0.85);
 }
 .text-bold {
 	font-family: 'AvenirMedium';
@@ -319,14 +347,14 @@ svg {
 .font-wifi {
 	font-family: 'AvenirBold';
 }
-.width-card{
-  width: 30.5%;
-  border-radius: 0;
+.width-card {
+	width: 30.5%;
+	border-radius: 0;
 }
-.color-footer-card{
-  color: gray;
-  font-family: 'AvenirRegular';
-  font-size: 15px;
+.color-footer-card {
+	color: gray;
+	font-family: 'AvenirRegular';
+	font-size: 15px;
 }
 .services-style {
 	font-size: 35px;
@@ -340,16 +368,16 @@ svg {
 	color: darkslategray;
 	font-size: 70px;
 }
-.background-container{
-  background-color: #e6e6e6;
+.background-container {
+	background-color: #e6e6e6;
 }
-.background-card{
-  background-color: white;
+.background-card {
+	background-color: white;
 }
-.card{
-  -webkit-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 50px -40px rgba(0,0,0,0.75);
+.card {
+	-webkit-box-shadow: 0px 0px 50px -27px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 50px -27px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 50px -40px rgba(0, 0, 0, 0.75);
 }
 .mbps {
 	font-family: 'SinkinSansThin';
@@ -394,23 +422,23 @@ svg {
 	font-family: 'AvenirBold';
 }
 .cantidad {
-  font-size: 55px;
-  font-family: 'AvenirBold';
+	font-size: 55px;
+	font-family: 'AvenirBold';
 }
-.card-text{
-  font-family: 'AvenirRegular';
-  font-size: 19px;
-  color: gray;
+.card-text {
+	font-family: 'AvenirRegular';
+	font-size: 19px;
+	color: gray;
 }
-.cost-style{
-  font-family: 'AvenirBold';
-  font-size: 70px;
-  color: #f60000;
+.cost-style {
+	font-family: 'AvenirBold';
+	font-size: 70px;
+	color: #f60000;
 }
-.card-title{
-  font-size: 24px;
-  color: #4D4D4D;;
-  font-family: 'AvenirMedium';
+.card-title {
+	font-size: 24px;
+	color: #4d4d4d;
+	font-family: 'AvenirMedium';
 }
 .width-bg {
 	width: 130%;
@@ -540,104 +568,76 @@ a.animated-button.victoria-four:hover:after {
 	height: 600% !important;
 }
 @media (max-width: 767px) {
-  .services-style {
-    font-size: 21px;
-    letter-spacing: 5px;
-    font-weight: bold;
-    padding: 8px 0px;
-  }
-  .text-title{
-    letter-spacing: 20px;
-    font-size: 15px;
-  }
-  .width-card {
-    width: 100%;
-    border-radius: 0;
-  }
-  .mbps {
-    font-family: 'SinkinSansThin';
-    font-size: 33px;
-    padding-bottom: 24px;
-    letter-spacing: 3px;
-  }
-  .cantidad {
-    font-size: 60px;
-  }
-  .position-main{
-    position: static;
-  }
-  .btn-custom {
-    padding: 0.775rem 72px;
-    font-size: 18px;
-  }
-  .width-bg {
-    width: 100%;
-  }
-  .subs-style {
-    font-size: 40px;
-    margin-left: 1rem;
-    margin-top: 2rem;
-  }
-  .text-style {
-    margin-left: 0;
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  .image-none {
-    display: none;
-  }
-  .title-style {
-    margin-left: 0;
-    letter-spacing: 4px;
-    text-align: center;
-    font-size: 18px;
-  }
-  .carousel-image{
-    height: 260px;
-  }
-  
-  .mobile-item{
-    height: 260px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px){
-  .subs-style {
-    font-size: 60px;
-  }
-  .width-bg {
-    width: 100%;
-  }
-  .width-card {
-    width: 100%;
-    border-radius: 0;
-  }
-  .position-main {
-    position: relative;
-    top: 0;
-  }
-  .services-style{
-    font-size: 40px;
-    letter-spacing: 10px;
-    padding: 20px 0px;
-    font-family: 'SinkinSansMedium';
-  }
-  .margin-hand{
-    margin-left: 50%;
-  }
-  .btn-custom{
-    padding-left: 72px;
-    padding-right: 72px;
-  }
+	.services-style {
+		font-size: 21px;
+		letter-spacing: 5px;
+		font-weight: bold;
+		padding: 8px 0px;
+	}
+	.text-title {
+		letter-spacing: 20px;
+		font-size: 15px;
+	}
+	.width-card {
+		width: 100%;
+		border-radius: 0;
+	}
+	.mbps {
+		font-family: 'SinkinSansThin';
+		font-size: 33px;
+		padding-bottom: 24px;
+		letter-spacing: 3px;
+	}
+	.cantidad {
+		font-size: 60px;
+	}
+	.position-main {
+		position: static;
+	}
+	.btn-custom {
+		padding: 0.775rem 72px;
+		font-size: 18px;
+	}
+	.width-bg {
+		width: 100%;
+	}
+	.subs-style {
+		font-size: 40px;
+		margin-left: 1rem;
+		margin-top: 2rem;
+	}
+	.text-style {
+		margin-left: 0;
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+	.image-none {
+		display: none;
+	}
+	.title-style {
+		margin-left: 0;
+		letter-spacing: 4px;
+		text-align: center;
+		font-size: 18px;
+	}
+	.carousel-image {
+		height: 260px;
+	}
+
 	.mobile-item {
 		height: 260px;
 	}
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 	.subs-style {
 		font-size: 60px;
 	}
 	.width-bg {
 		width: 100%;
+	}
+	.width-card {
+		width: 100%;
+		border-radius: 0;
 	}
 	.position-main {
 		position: relative;
@@ -652,6 +652,36 @@ a.animated-button.victoria-four:hover:after {
 	.margin-hand {
 		margin-left: 50%;
 	}
+	.btn-custom {
+		padding-left: 72px;
+		padding-right: 72px;
+	}
+
+	.mobile-item {
+		height: 260px;
+	}
+	.footer-center {
+		text-align: center;
+	}
+}
+
+.partner-carousel {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(51, 51, 51, 1) 100%,
+		rgba(253, 187, 45, 1) 333333%,
+		rgba(34, 193, 195, 1) 0333333%
+	);
+	height: 100px;
+	text-align: center;
+}
+.partner-inner {
+	display: flex;
+	height: 100%;
+	align-content: center;
+	flex-wrap: wrap;
 }
 
 /* CAROUSEL */
@@ -666,10 +696,21 @@ a.animated-button.victoria-four:hover:after {
 	display: block;
 }
 
-.font-footer{
-  font-family: 'AvenirRegular';
+.img-water {
+	position: absolute;
+	height: 10vw;
+	z-index: 9999;
+	margin-left: .5rem;
+	margin-top: .5rem;
 }
 
+/* FOOTER */
+.font-footer {
+	font-family: 'AvenirRegular';
+}
 .padding-left-20 {
 	padding-left: 20px;
+}
+.carousel-indicators {
+	bottom: -15px;
 }
