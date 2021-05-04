@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="container-fluid p-0">
-      <nav class="py-2 header-color border-bottom scroll-bottom">
+      <nav class="py-3 header-color border-bottom scroll-bottom">
         <div
           class="container d-flex justify-content-lg-end p-0 justify-content-center flex-wrap"
         >
@@ -66,30 +66,41 @@
         </div>
       </nav>
       <!-- Carousel -->
-      <img src="./Assets/200 water street logo.png" alt="200 water street" class="scroll-top img-water">
-      <div id="myCarousel" class="carousel slide widget scroll-top" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item mobile-item active">
-            <img
-              class="carousel-image m-auto"
-              src="./Assets/Residential banner image 1.png"
-              alt=""
-            />
+      <div class="position-relative scroll-top-50">
+        <div class="banner-floating">
+          <img class="" src="./Assets/water campus logo.png" alt="" />
+          <img class="" src="./Assets/cprt logo.png" alt="" />
+          <img class="" src="./Assets/red bison logo.png" alt="" />
+        </div>
+        <div class="banner-carousel">
+                <!-- PARTNER SLIDES  -->
+        <div id="myCarousel" class="carousel slide d-flex align-end carousel-fade partner-carousel scroll-top-50"
+        data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner partner-inner">
+          <div class="carousel-item mobile-item-partner active">
+            <img class="m-auto partner-image" src="./Assets/water campus logo.png" alt="" />
+          </div>
+          <div class="carousel-item mobile-item-partner">
+            <img class="m-auto partner-image" src="./Assets/cprt logo.png" alt="" />
+          </div>
+          <div class="carousel-item my-auto mobile-item-partner">
+            <img class="m-auto partner-image" src="./Assets/red bison logo.png" alt="" />
           </div>
         </div>
       </div>
-      <!-- PARTNER SLIDES  -->
-      <div id="myCarousel" class="carousel slide d-flex align-end carousel-fade partner-carousel scroll-top-50"
-      data-bs-ride="carousel">
-      <div class="carousel-inner partner-inner">
-        <div class="carousel-item mobile-item-partner active">
-          <img class="m-auto partner-image" src="./Assets/cprt logo.png" alt="" />
         </div>
-        <div class="carousel-item my-auto mobile-item-partner">
-          <img class="m-auto partner-image" src="./Assets/red bison logo.png" alt="" />
+        <div id="myCarousel" class="carousel slide widget scroll-top" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item mobile-item active">
+              <img
+                class="carousel-image m-auto"
+                src="./Assets/Commercial banner image 1.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
       <!-- CONTENT -->
       <div class="py-5 bg-content-wifi widget">
         <h1 class="text-center mt-5 mb-5 title-color widget scroll-top-50">
