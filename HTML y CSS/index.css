@@ -697,10 +697,10 @@ a.animated-button.victoria-four:hover:after {
 
 .img-water {
 	position: absolute;
-	height: 10vw;
-	z-index: 9999;
-	margin-left: .5rem;
-	margin-top: .5rem;
+    height: 8vw;
+    z-index: 9999;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 /* FOOTER */
