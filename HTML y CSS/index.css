@@ -179,6 +179,7 @@ svg {
 	background: var(--red-gradient-color);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	line-height: 77.5px;
 	font-weight: bold;
 	letter-spacing: 4px;
 	font-family: 'AvenirBold';
@@ -228,6 +229,7 @@ svg {
 	}
 }
 .color-subs {
+	font-family: 'AvenirRegular';
 	color: darkslategray;
 	font-size: 20px;
 }
@@ -391,10 +393,10 @@ svg {
 	color: darkslategray;
 }
 .bg-color {
-	font-size: 18px;
+	font-size: 15px;
 	background-color: #f2f2f2;
-	font-family: 'SinkinSansThin';
-	letter-spacing: 4px;
+	font-family: 'AvenirRegular';
+  letter-spacing: 5px;
 }
 .font-text-btn {
 	font-family: 'AvenirBold';
