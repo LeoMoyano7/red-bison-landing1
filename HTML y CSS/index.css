@@ -326,7 +326,7 @@ svg {
 	font-family: 'AvenirBold';
 }
 .position-main {
-	position: relative;
+	position: absolute;
 	top: -45px;
 	z-index: 9999;
 }
