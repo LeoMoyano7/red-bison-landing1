@@ -51,6 +51,10 @@
 	background-image: var(--red-gradient-color);
 	font-size: 0.8rem;
 }
+.label-nav{
+font-weight: 300;
+font-size: 0.9rem;
+}
 
 .link-header {
 	color: #ffffff;
@@ -70,7 +74,10 @@
 
 .header-separator {
 	font-weight: bold;
-	color: #ffffff;
+    color: #ffffff;
+    background: white;
+    width: 1px;
+    height: 60%;
 }
 @media (max-width: 1920px) {
 	.carousel-image {
