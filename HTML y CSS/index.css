@@ -14,8 +14,16 @@
 	src: url('./fonts/AvenirNextLTPro-HeavyCn.otf');
 }
 @font-face {
-	font-family: 'AvenirMedium';
+	font-family: 'AvenirWMedium';
 	src: url('./fonts/AvenirNextW1G-Medium.otf');
+}
+@font-face {
+	font-family: 'AvenirWRegular';
+	src: url('./fonts/AvenirNextW1G-Regular.otf');
+}
+@font-face {
+	font-family: 'AvenirWBold';
+	src: url('./fonts/AvenirNextW1G-Bold.otf');
 }
 @font-face {
 	font-family: 'SinkinSansThin';
@@ -170,6 +178,9 @@ svg {
 .image-size {
 	width: 50px;
 }
+.fw-bold{
+	font-family: 'AvenirWBold';
+}
 .space-badge {
 	letter-spacing: 10px;
 	font-size: 17px;
@@ -229,8 +240,8 @@ svg {
 	}
 }
 .color-subs {
-	font-family: 'AvenirRegular';
-	color: darkslategray;
+	font-family: 'AvenirWMedium';
+	color: #2a2a2a;
 	font-size: 20px;
 }
 .btn {
@@ -249,7 +260,7 @@ svg {
 	background-image: var(--red-gradient-color);
 }
 .cost-title-style {
-	font-family: 'AvenirMedium';
+	font-family: 'AvenirWMedium';
 	font-size: 22px;
 	color: #4d4d4d;
 }
@@ -275,15 +286,16 @@ svg {
 .title {
 	background: var(--red-gradient-color);
 	text-align: center;
+	padding: 8px 0px;
 	color: white;
+	margin-bottom: 10px;
 }
 .containerBenefits {
 	background-color: rgba(240, 248, 255, 0.85);
 }
 .text-bold {
-	font-family: 'AvenirMedium';
-	font-size: 19px;
-	font-weight: 600;
+	font-family: 'AvenirWMedium';
+	font-size: 18px;
 }
 .triangulo {
 	width: 0;
@@ -295,12 +307,22 @@ svg {
 	top: 5px;
 }
 .fully-text {
-	font-size: 13px;
+	font-size: 14.5px;
+}
+.space-line{
+	letter-spacing: -3px;
+}
+.equal-size{
+	  position: relative;
+    letter-spacing: 12px;
+    font-size: 24px;
+    left: -14px;
 }
 .text-title {
 	letter-spacing: 25px;
 	font-family: 'SinkinSansLight';
 	font-size: 30px;
+	margin: 0px;
 }
 .btn {
 	letter-spacing: 3px;
@@ -361,10 +383,17 @@ svg {
 }
 .services-style {
 	font-size: 35px;
-	letter-spacing: 15px;
+	letter-spacing: 25px;
 	font-weight: 500;
-	padding: 20px 0px;
+	padding: 20px 0px 10px;
 	font-family: 'SinkinSansMedium';
+}
+.ideal-style{
+	margin: 25px 20px;
+	padding: 10px 0px;
+	font-family: 'AvenirWMedium';
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 .title-mb {
 	font-weight: 900;
@@ -441,7 +470,7 @@ svg {
 .card-title {
 	font-size: 24px;
 	color: #4d4d4d;
-	font-family: 'AvenirMedium';
+	font-family: 'AvenirWMedium';
 }
 .width-bg {
 	width: 130%;
@@ -635,6 +664,12 @@ a.animated-button.victoria-four:hover:after {
 	.subs-style {
 		font-size: 60px;
 	}
+	.equal-size {
+    position: relative;
+    letter-spacing: 10px;
+    font-size: 13px;
+    left: -5px;
+	}
 	.width-bg {
 		width: 100%;
 	}
@@ -754,5 +789,11 @@ a.animated-button.victoria-four:hover:after {
 	}
 	.banner-carousel{
 		display: block;
+	}
+	.equal-size {
+    position: relative;
+    letter-spacing: 5px;
+    font-size: 8px;
+    left: -2px;
 	}
 }
